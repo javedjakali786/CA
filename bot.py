@@ -6,6 +6,7 @@ PORT = int(os.environ.get('PORT', '8443'))
 
 with open('token.txt', 'r') as f:
     TOKEN = str(f.read())
+    TOKEN = '5663054631:AAF-y_95XZRsaIJrdbQcTFLGbco8YTJ4Lao'
 
 session = {}
 
